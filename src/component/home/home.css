@@ -1,0 +1,49 @@
+.home{
+    background-color: aliceblue;
+    /* width: 100%; */
+}
+
+
+
+.textRow{
+    background-image: linear-gradient(to right top, #42569d, #7e499d, #b22e87, #d3065c, #dc2424);
+    height: 70%;
+}
+.textContainer{
+    height: 500px;
+}
+
+.textRow .innerRow{
+    padding: 0px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+ .innerRow .left{
+    color: white;
+    
+}
+.left h3{
+    width: 400px;
+    font-size: 28px;
+}
+
+ .innerRow .right{   
+    word-wrap: break-word;
+    width: 200px;
+    color: white;
+}
+.right p{   
+    width: 470px;
+    padding-left: 148px;
+}
+.videoContainer{
+    margin-top: -15%;
+    width: 1200px;
+}
+.videoContainer img{
+    height: 450px;
+    width: 500px;
+}
